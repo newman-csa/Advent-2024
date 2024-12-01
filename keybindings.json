@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+u",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": ".\\uiua.exe run '${file}'\u000D"
+    }
+  }
+]
+
