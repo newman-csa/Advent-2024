@@ -1,7 +1,9 @@
-# Experimental!
+P₁ ← ≡/-◫2
 
-Clean ← ⊜(⊜⋕≠@ .)¬⦷"\r\n".
-Solve ← ()
+⊜(P₁⊜⋕≠@ .)?¬⦷"\r\n". &fras"test_input"
 
-Clean &fras"test_input"
-↥⊓(>3|=0)⊃(/↥|/↧)⍉.⌵≡(≡/-◫2).
+# This would work if the array wasn't rigid T-T
+# F  ← ⊜(⊜⋕≠@ .)¬⦷"\r\n".
+# P₁ ← (
+#   ↧⊓(≤3|≠0)⊃(/↥|/↧)⍉⌵≡(≡/-◫2).
+#   /+=↥≡(⊃(≍⇌⍆|≍⍆)).:)
