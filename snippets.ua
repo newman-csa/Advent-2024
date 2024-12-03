@@ -2,4 +2,7 @@
 Clean ← ⊜⋕⊸∈"0123456789"
 
 # Spilt array on every other element
-Split = ≡°⊟ ↯∞_2
+Split ← ≡°⊟ ↯∞_2
+
+# Create Adjacency Matrix
+Adjac ← ⊞≠.°⊏
