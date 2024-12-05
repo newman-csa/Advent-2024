@@ -1,7 +1,8 @@
-# 
-P₁ ← /+/×⋕↘1⍉regex"mul\\(([0-9]*),([0-9]*)\\)"
-P₂ ← (
-  regex"don't\\(\\).*do\\(\\)|mul\\([0-9]*,[0-9]*\\)"
-)
+# Clean the input
+F ← ◌:⍜▽@a=@\n.
 
-P₂ ?&fras"input"
+# Solutions
+P₁ ← /+/×⋕↘1⍉regex$ mul\((\d*),(\d*)\)
+P₂ ← P₁/◇⊂(/⊂)regex$ (?:^|do\(\)).*?(?:$|don't\(\))
+
+⊃P₂P₁F&fras"input"

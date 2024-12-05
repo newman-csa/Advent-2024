@@ -6,3 +6,9 @@ Split ← ≡°⊟ ↯∞_2
 
 # Create Adjacency Matrix
 Adjac ← ⊞≠.°⊏
+
+# Replace character a with character b in string
+Replace ← ⊙◌⍜▽@b=@a.
+
+# Split on string into array on delimitter
+Splil ← ⊜∘⊸≠@\n
